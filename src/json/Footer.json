@@ -1,0 +1,25 @@
+[{
+        "href": "/",
+        "contents": "AnaSayfa"
+    },
+    {
+        "href": "/products",
+        "contents": "Ürünler"
+    },
+    {
+        "href": "https://www.behance.net/morarchive",
+        "contents": "Portföy"
+    },
+    {
+        "href": "",
+        "contents": "Blog"
+    },
+    {
+        "href": "/about-us",
+        "contents": "Hakkımızda"
+    },
+    {
+        "href": "/contact",
+        "contents": "İletişim"
+    }
+]

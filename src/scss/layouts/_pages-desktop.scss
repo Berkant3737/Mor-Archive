@@ -1,0 +1,48 @@
+/* AboutUs */
+
+.about-us {
+    .about-us-banner {
+        width: 100%;
+        height: 100px;
+        background-color: rgb(217 220 222);
+    }
+}
+
+.portfolio__item {
+    &-icon {
+        position: relative;
+        color: gray;
+        transition: color 1s;
+        font-size: 1.5rem;
+        &::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 0%;
+            background-color: #f5476a;
+            border-radius: 50%;
+            transition: all .5s;
+            z-index: -1;
+            opacity: 0;
+            visibility: hidden;
+        }
+    }
+    &:hover {
+        .portfolio__item-icon {
+            color: #fff;
+        }
+        .portfolio__item-icon::after {
+            opacity: 1;
+            visibility: visible;
+            height: 100%;
+        }
+    }
+    .bg-light {
+        z-index: -2 !important;
+    }
+}
+
+
+/* AboutUs */

@@ -1,0 +1,22 @@
+footer {
+    ul {
+        li {
+            a {
+                color: white;
+                text-decoration: none;
+                padding-left: 20px;
+                font-weight: 800;
+            }
+        }
+    }
+    .social-icons {
+        ul {
+            li {
+                display: inline-block;
+                box-sizing: border-box;
+                padding: 15px;
+                font-size: 20px;
+            }
+        }
+    }
+}

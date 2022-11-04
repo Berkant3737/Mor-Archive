@@ -1,0 +1,37 @@
+[{
+        "li": "nav-item",
+        "a": "nav-link",
+        "href": "/",
+        "contents": "AnaSayfa"
+    },
+    {
+        "li": "nav-item",
+        "a": "nav-link",
+        "href": "/products",
+        "contents": "Ürünler"
+    },
+    {
+        "li": "nav-item",
+        "a": "nav-link",
+        "href": "https://www.behance.net/morarchive",
+        "contents": "Portföy"
+    },
+    {
+        "li": "nav-item",
+        "a": "nav-link",
+        "href": "",
+        "contents": "Blog"
+    },
+    {
+        "li": "nav-item",
+        "a": "nav-link",
+        "href": "/about-us",
+        "contents": "Hakkımızda"
+    },
+    {
+        "li": "nav-item",
+        "a": "nav-link",
+        "href": "/contact",
+        "contents": "İletişim"
+    }
+]
