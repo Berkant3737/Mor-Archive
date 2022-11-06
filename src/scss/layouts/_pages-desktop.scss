@@ -4,11 +4,11 @@
     .about-us-banner {
         width: 100%;
         height: 100px;
-        background-color: rgb(217 220 222);
+        background-color: rgb(244, 248, 251);
     }
 }
 
-.portfolio__item {
+.portfolio--item {
     &-icon {
         position: relative;
         color: gray;
@@ -30,10 +30,10 @@
         }
     }
     &:hover {
-        .portfolio__item-icon {
+        .portfolio--item-icon {
             color: #fff;
         }
-        .portfolio__item-icon::after {
+        .portfolio--item-icon::after {
             opacity: 1;
             visibility: visible;
             height: 100%;
@@ -46,3 +46,101 @@
 
 
 /* AboutUs */
+
+
+/* Contact */
+
+.contact-icon {
+    background-color: #f5476a;
+}
+
+.link a {
+    text-decoration: none;
+    font-size: .8rem;
+    color: gray;
+}
+
+#form {
+    button {
+        display: block;
+        border: 2px solid #f5476a;
+        background: #f5476a;
+        font-weight: bold;
+        color: #fff;
+        letter-spacing: 3px;
+        transition: all .5s;
+        &:hover {
+            background: transparent;
+            color: #f5476a;
+        }
+        &#name {
+            position: relative;
+            &::before {
+                content: "\f007";
+                color: gray;
+                background-color: transparent;
+                top: 3px;
+                left: 3px;
+            }
+        }
+    }
+}
+
+.social>div {
+    position: relative;
+    a {
+        color: #f5476a;
+        transition: all .5s;
+        &:hover {
+            color: #fff;
+        }
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 0%;
+            height: 100%;
+            border-radius: 5px;
+            background-color: #f5476a;
+            transition: all .3s;
+            z-index: -1;
+        }
+        &:hover:before {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .social>div a {
+        color: #fff;
+        &:hover {
+            color: #f5476a;
+        }
+        &::before {
+            width: 100%;
+        }
+        &:hover:before {
+            width: 0%;
+        }
+    }
+}
+
+.input-icons {
+    position: relative;
+    i {
+        position: absolute;
+        min-width: 40px;
+        top: 6px;
+        left: 0px;
+        color: gray;
+        padding: 12px;
+    }
+    .input-field {
+        padding-left: 35px !important;
+    }
+}
+
+
+/* Contact */

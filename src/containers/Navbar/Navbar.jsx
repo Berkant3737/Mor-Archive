@@ -21,7 +21,7 @@ function Navbar() {
           >
             <span className="navbar-toggler-icon bg-white"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <div className="collapse navbar-collapse text-center" id="navbarSupportedContent">
             <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
               {navbarJson.map((navbar) => {
                 return (

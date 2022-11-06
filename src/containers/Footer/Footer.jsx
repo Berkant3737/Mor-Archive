@@ -10,22 +10,26 @@ function Footer() {
       <footer className="bg-black text-white">
         <div className="container p-4">
           <div className="col-12">
-            <div className="footer-top d-flex justify-content-between mb-5">
+            <div className="footer-top d-block mb-5">
+              <ul className="row p-0 m-0 align-items-center">
+              <div className="col-12 col-lg-6">
               <a href="">
-                <img src={img} alt="" />
+                <img src={img} className="mb-3" />
               </a>
-              <ul className="p-0 m-0 d-flex">
+              </div>
+                <div className="col-12 col-lg-6 d-block d-lg-flex">
                 {footerJson.map((footer) => {
                   return (
-                    <li>
+                    <li className="pb-3">
                       <a href={footer.href}> {footer.contents} </a>
                     </li>
                   );
                 })}
+                </div>
               </ul>
             </div>
 
-            <div className="footer-bottom d-flex justify-content-between align-items-center">
+            <div className="footer-bottom d-block d-lg-flex justify-content-between align-items-center">
               <span className="fw-bold">
                 © 2022 MorArchive. Tüm Hakları Saklıdır
               </span>
